@@ -1,0 +1,21 @@
+
+<h1>Tema Enrutamiento</h1>
+<router-outlet></router-outlet>
+
+<nav>
+    <ul>
+      <li>
+          <!--  routerLinkActive="active" recibe texto simple
+                [routerLinkActive]="'active'" recibe javascript  -->
+          <a routerLink="/home"  [routerLinkActive]="'active'">home</a>
+      </li> 
+      <li>
+          <a routerLink="/contact" routerLinkActive="active">contact</a>
+      </li> 
+      <li>
+          <a routerLink="/about" routerLinkActive="active">about</a>
+      </li>  
+    </ul>
+</nav>
+
+ 
